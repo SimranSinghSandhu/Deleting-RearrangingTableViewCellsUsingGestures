@@ -7,15 +7,27 @@
 //
 
 import UIKit
+import TableViewDragger
 
-class TableViewController: UITableViewController {
-
+class TableViewController: UITableViewController, TableViewDraggerDelegate, TableViewDraggerDataSource {
+    
+    // Ceating an Instance of TableViewDragger
+    var dragger : TableViewDragger!
+    
     let cellId = "cellId"
     var dataArr : [String] = ["Simran", "Singh", "Sandhu"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.backgroundView?.backgroundColor = UIColor.white
+        
+        // Setting TableView Dragger Properties, Delegates and DataSource Methods
+        dragger = TableViewDragger(tableView: tableView)
+        dragger.delegate = self
+        dragger.dataSource = self
+        dragger.availableHorizontalScroll = true
+        dragger.alphaForCell = 0.7
+        
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellId)
     }
 
@@ -60,6 +72,16 @@ class TableViewController: UITableViewController {
         doneAction.backgroundColor = UIColor.green
         
         return UISwipeActionsConfiguration(actions: [doneAction])
+    }
+    
+    // When Ever LongPressed On a Cell this Function Will Call
+    func dragger(_ dragger: TableViewDragger, moveDraggingAt indexPath: IndexPath, newIndexPath: IndexPath) -> Bool {
+        let item = dataArr[indexPath.row]
+        dataArr.remove(at: indexPath.row)
+        dataArr.insert(item, at: newIndexPath.row)
+       
+        tableView.moveRow(at: indexPath, to: newIndexPath)
+        return true
     }
 }
 

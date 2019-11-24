@@ -45,16 +45,16 @@
 		51854B4ECE7BC849B860EFB5C395954C /* Pods-EditingCellsUsingGestures-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EditingCellsUsingGestures-frameworks.sh"; sourceTree = "<group>"; };
 		52F74670953BCC292DCBCC700C6F520C /* Pods-EditingCellsUsingGestures.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EditingCellsUsingGestures.debug.xcconfig"; sourceTree = "<group>"; };
 		64F8FEA81B1524367E6430DC8CF1820C /* TableViewDragger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewDragger.swift; path = TableViewDragger/TableViewDragger.swift; sourceTree = "<group>"; };
-		6513FC679A89825581A282C12CEFB4A7 /* Pods_EditingCellsUsingGestures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EditingCellsUsingGestures.framework; path = "Pods-EditingCellsUsingGestures.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6513FC679A89825581A282C12CEFB4A7 /* Pods_EditingCellsUsingGestures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EditingCellsUsingGestures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		652D05DCC3810881DD6964225A9CDF3B /* TableViewDragger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TableViewDragger.h; path = TableViewDragger/TableViewDragger.h; sourceTree = "<group>"; };
 		91DA6B50831966A92FBC03A3596B0696 /* Pods-EditingCellsUsingGestures-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EditingCellsUsingGestures-umbrella.h"; sourceTree = "<group>"; };
 		97E551FB627872308943C573A97CCF5F /* TableViewDragger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TableViewDragger-umbrella.h"; sourceTree = "<group>"; };
 		9914D706B5B0256975D47E82E6F3EA9A /* Pods-EditingCellsUsingGestures-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EditingCellsUsingGestures-Info.plist"; sourceTree = "<group>"; };
 		9D09FCC29DFB50019AF4F7B2F98EE8BC /* TableViewDragger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TableViewDragger-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A451DFB129C147B712C1CFDCB6E4E1CB /* Pods-EditingCellsUsingGestures-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EditingCellsUsingGestures-dummy.m"; sourceTree = "<group>"; };
 		AF1B97CC1C16091320E2894AEACF18B7 /* ScrollRects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollRects.swift; path = TableViewDragger/ScrollRects.swift; sourceTree = "<group>"; };
-		C87010D22C844BD63EFDA42B8F7DC52D /* TableViewDragger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TableViewDragger.framework; path = TableViewDragger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C87010D22C844BD63EFDA42B8F7DC52D /* TableViewDragger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TableViewDragger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8714730205224445D0DD0EC91E4B5D /* TableViewDraggerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewDraggerCell.swift; path = TableViewDragger/TableViewDraggerCell.swift; sourceTree = "<group>"; };
 		E421E1A04BBFBE71447D533CD8983BA7 /* Pods-EditingCellsUsingGestures.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EditingCellsUsingGestures.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -157,7 +157,6 @@
 				14876337D58DCBABEE7493303299A873 /* UIScrollViewExtension.swift */,
 				D000CABAD2C8BD622E0782FD7B10E352 /* Support Files */,
 			);
-			name = TableViewDragger;
 			path = TableViewDragger;
 			sourceTree = "<group>";
 		};
@@ -246,6 +245,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					9CCE19A165815D297B2FD618C558B2F8 = {
+						LastSwiftMigration = 1120;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -253,6 +257,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 57E5C9E524AADD3CE1680E77F5772B96 /* Products */;
@@ -380,7 +385,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -578,7 +583,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
