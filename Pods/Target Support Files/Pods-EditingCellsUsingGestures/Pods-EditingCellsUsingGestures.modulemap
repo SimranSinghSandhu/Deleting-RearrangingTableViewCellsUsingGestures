@@ -1,0 +1,6 @@
+framework module Pods_EditingCellsUsingGestures {
+  umbrella header "Pods-EditingCellsUsingGestures-umbrella.h"
+
+  export *
+  module * { export * }
+}

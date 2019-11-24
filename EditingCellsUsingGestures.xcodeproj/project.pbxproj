@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		511800A6238AB8CE0022A4FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511800A5238AB8CE0022A4FE /* AppDelegate.swift */; };
+		511800A8238AB8CE0022A4FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511800A7238AB8CE0022A4FE /* SceneDelegate.swift */; };
+		511800AA238AB8CE0022A4FE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511800A9238AB8CE0022A4FE /* TableViewController.swift */; };
+		511800AF238AB8D00022A4FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 511800AE238AB8D00022A4FE /* Assets.xcassets */; };
+		511800B2238AB8D00022A4FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 511800B0238AB8D00022A4FE /* LaunchScreen.storyboard */; };
+		6EEF88C57569D2C621328542 /* Pods_EditingCellsUsingGestures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3265A6A6EB3A12594F8C324D /* Pods_EditingCellsUsingGestures.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3265A6A6EB3A12594F8C324D /* Pods_EditingCellsUsingGestures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EditingCellsUsingGestures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		511800A2238AB8CE0022A4FE /* EditingCellsUsingGestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EditingCellsUsingGestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		511800A5238AB8CE0022A4FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		511800A7238AB8CE0022A4FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		511800A9238AB8CE0022A4FE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		511800AE238AB8D00022A4FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		511800B1238AB8D00022A4FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		511800B3238AB8D00022A4FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		770E32C4F3180A442F289A4C /* Pods-EditingCellsUsingGestures.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EditingCellsUsingGestures.debug.xcconfig"; path = "Target Support Files/Pods-EditingCellsUsingGestures/Pods-EditingCellsUsingGestures.debug.xcconfig"; sourceTree = "<group>"; };
+		D30998AA46CEC24D962A7DA1 /* Pods-EditingCellsUsingGestures.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EditingCellsUsingGestures.release.xcconfig"; path = "Target Support Files/Pods-EditingCellsUsingGestures/Pods-EditingCellsUsingGestures.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5118009F238AB8CE0022A4FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EEF88C57569D2C621328542 /* Pods_EditingCellsUsingGestures.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39E65CD561780AB2EC8E208E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3265A6A6EB3A12594F8C324D /* Pods_EditingCellsUsingGestures.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51180099238AB8CE0022A4FE = {
+			isa = PBXGroup;
+			children = (
+				511800A4238AB8CE0022A4FE /* EditingCellsUsingGestures */,
+				511800A3238AB8CE0022A4FE /* Products */,
+				F693DE204F74EDE99AF4D46E /* Pods */,
+				39E65CD561780AB2EC8E208E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		511800A3238AB8CE0022A4FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				511800A2238AB8CE0022A4FE /* EditingCellsUsingGestures.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		511800A4238AB8CE0022A4FE /* EditingCellsUsingGestures */ = {
+			isa = PBXGroup;
+			children = (
+				511800A5238AB8CE0022A4FE /* AppDelegate.swift */,
+				511800A7238AB8CE0022A4FE /* SceneDelegate.swift */,
+				511800A9238AB8CE0022A4FE /* TableViewController.swift */,
+				511800AE238AB8D00022A4FE /* Assets.xcassets */,
+				511800B0238AB8D00022A4FE /* LaunchScreen.storyboard */,
+				511800B3238AB8D00022A4FE /* Info.plist */,
+			);
+			path = EditingCellsUsingGestures;
+			sourceTree = "<group>";
+		};
+		F693DE204F74EDE99AF4D46E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				770E32C4F3180A442F289A4C /* Pods-EditingCellsUsingGestures.debug.xcconfig */,
+				D30998AA46CEC24D962A7DA1 /* Pods-EditingCellsUsingGestures.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		511800A1238AB8CE0022A4FE /* EditingCellsUsingGestures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 511800B6238AB8D00022A4FE /* Build configuration list for PBXNativeTarget "EditingCellsUsingGestures" */;
+			buildPhases = (
+				34068E07510BEFEA5B44CC7A /* [CP] Check Pods Manifest.lock */,
+				5118009E238AB8CE0022A4FE /* Sources */,
+				5118009F238AB8CE0022A4FE /* Frameworks */,
+				511800A0238AB8CE0022A4FE /* Resources */,
+				4EBA203ABF2DAFA617C38495 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EditingCellsUsingGestures;
+			productName = EditingCellsUsingGestures;
+			productReference = 511800A2238AB8CE0022A4FE /* EditingCellsUsingGestures.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5118009A238AB8CE0022A4FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Simran Singh Sandhu";
+				TargetAttributes = {
+					511800A1238AB8CE0022A4FE = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 5118009D238AB8CE0022A4FE /* Build configuration list for PBXProject "EditingCellsUsingGestures" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51180099238AB8CE0022A4FE;
+			productRefGroup = 511800A3238AB8CE0022A4FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				511800A1238AB8CE0022A4FE /* EditingCellsUsingGestures */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		511800A0238AB8CE0022A4FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				511800B2238AB8D00022A4FE /* LaunchScreen.storyboard in Resources */,
+				511800AF238AB8D00022A4FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34068E07510BEFEA5B44CC7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EditingCellsUsingGestures-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EBA203ABF2DAFA617C38495 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EditingCellsUsingGestures/Pods-EditingCellsUsingGestures-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EditingCellsUsingGestures/Pods-EditingCellsUsingGestures-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EditingCellsUsingGestures/Pods-EditingCellsUsingGestures-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5118009E238AB8CE0022A4FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				511800AA238AB8CE0022A4FE /* TableViewController.swift in Sources */,
+				511800A6238AB8CE0022A4FE /* AppDelegate.swift in Sources */,
+				511800A8238AB8CE0022A4FE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		511800B0238AB8D00022A4FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				511800B1238AB8D00022A4FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		511800B4238AB8D00022A4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		511800B5238AB8D00022A4FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		511800B7238AB8D00022A4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 770E32C4F3180A442F289A4C /* Pods-EditingCellsUsingGestures.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K27XY6S2YU;
+				INFOPLIST_FILE = EditingCellsUsingGestures/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simran.-EditingCellsUsingGestures.EditingCellsUsingGestures";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		511800B8238AB8D00022A4FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D30998AA46CEC24D962A7DA1 /* Pods-EditingCellsUsingGestures.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K27XY6S2YU;
+				INFOPLIST_FILE = EditingCellsUsingGestures/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simran.-EditingCellsUsingGestures.EditingCellsUsingGestures";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5118009D238AB8CE0022A4FE /* Build configuration list for PBXProject "EditingCellsUsingGestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				511800B4238AB8D00022A4FE /* Debug */,
+				511800B5238AB8D00022A4FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		511800B6238AB8D00022A4FE /* Build configuration list for PBXNativeTarget "EditingCellsUsingGestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				511800B7238AB8D00022A4FE /* Debug */,
+				511800B8238AB8D00022A4FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5118009A238AB8CE0022A4FE /* Project object */;
+}
