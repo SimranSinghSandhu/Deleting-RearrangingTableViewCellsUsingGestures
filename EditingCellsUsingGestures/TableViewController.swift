@@ -14,6 +14,7 @@ class TableViewController: UITableViewController, TableViewDraggerDelegate, Tabl
     // Ceating an Instance of TableViewDragger
     var dragger : TableViewDragger!
     
+    var isDragable : Bool = false
     let cellId = "cellId"
     var dataArr : [String] = ["Simran", "Singh", "Sandhu"]
     
@@ -57,7 +58,11 @@ class TableViewController: UITableViewController, TableViewDraggerDelegate, Tabl
             success(true)
         }
         
-        return UISwipeActionsConfiguration(actions: [deleteAction])
+        if !isDragable {
+            return UISwipeActionsConfiguration(actions: [deleteAction])
+        } else {
+            return UISwipeActionsConfiguration(actions: [])
+        }
     }
     
     // Swipe Right to Do other Stuff
@@ -71,7 +76,16 @@ class TableViewController: UITableViewController, TableViewDraggerDelegate, Tabl
         
         doneAction.backgroundColor = UIColor.green
         
-        return UISwipeActionsConfiguration(actions: [doneAction])
+        if !isDragable {
+            return UISwipeActionsConfiguration(actions: [doneAction])
+        } else {
+            return UISwipeActionsConfiguration(actions: [])
+        }
+    }
+    
+    // When Drag Begins
+    func dragger(_ dragger: TableViewDragger, didBeginDraggingAt indexPath: IndexPath) {
+        isDragable = true
     }
     
     // When Ever LongPressed On a Cell this Function Will Call
@@ -82,6 +96,11 @@ class TableViewController: UITableViewController, TableViewDraggerDelegate, Tabl
        
         tableView.moveRow(at: indexPath, to: newIndexPath)
         return true
+    }
+    
+    // When Drop Ends
+    func dragger(_ dragger: TableViewDragger, didEndDraggingAt indexPath: IndexPath) {
+        isDragable = false
     }
 }
 
